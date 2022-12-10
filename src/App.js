@@ -31,7 +31,7 @@ function App() {
 					{users?.accessToken && <Navbar />}
 					<Routes>
 						<Route path='/' element={<Auth />} />
-						<Route path='dashboard' element={<Home />} />
+						<Route path='/dashboard' element={<Home />} />
 					</Routes>
 				</ScrollToTop>
 			</BrowserRouter>
