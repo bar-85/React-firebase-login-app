@@ -19,7 +19,6 @@ function App() {
 				const uid = user.uid
 				console.log(uid)
 				setUsers(user)
-				// ...
 			} else {
 			}
 		})
@@ -31,7 +30,7 @@ function App() {
 					{users?.accessToken && <Navbar />}
 					<Routes>
 						<Route path='/' element={<Auth />} />
-						<Route path='/dashboard' element={<Home />} />
+						<Route path='/dashboard' element={<Home users={users}/>} />
 					</Routes>
 				</ScrollToTop>
 			</BrowserRouter>
