@@ -1,8 +1,11 @@
 import React from 'react'
+import { Welcome } from '../styles/pages/Home.styles'
 
-const Home = () => {
+const Home = ({users}) => {
   return (
-    <div>Home</div>
+      <Welcome>
+        Witaj <span>{ users?.email }</span>
+      </Welcome>
   )
 }
 
