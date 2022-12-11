@@ -4,6 +4,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithP
 import { toast } from 'react-toastify'
 import { auth } from '../firebase'
 import { GoogleAuthProvider } from 'firebase/auth'
+import { FcGoogle } from "react-icons/fc";
 
 const provider = new GoogleAuthProvider()
 
@@ -65,7 +66,7 @@ const Auth = () => {
 					<input name='email' value={authData.email} onChange={onChangeFunc} type='email' placeholder='Email' />
 					<input name='password' value={authData.password} onChange={onChangeFunc} type='password' placeholder='Hasło' />
 					<div onClick={googleLogin} className='google'>
-						Zaloguj się przez Google
+						<FcGoogle className='googleFc' /> <span>Zaloguj się przez Google </span>
 					</div>
 					<p onClick={() => setSignUp(!signUp)}>{signUp ? 'Logowanie >>' : 'Załóż konto >>'}</p>
 					<button onClick={authFunc}>{signUp ? 'Rejestracja' : 'Logowanie'}</button>
