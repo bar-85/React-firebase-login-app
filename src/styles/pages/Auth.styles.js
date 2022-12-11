@@ -4,13 +4,14 @@ export const Wrapper = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 80vh;
+	height: 90vh;
+	width: 100%;
 `
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	max-width: 500px;
-	width: 100%;
+	width: 93%;
 `
 export const Box = styled.div`
 	width: 100%;
@@ -40,8 +41,11 @@ export const Box = styled.div`
 		text-align: center;
 		margin: 10px auto;
 		border-radius: 4px;
-		background-color: rgb(232, 226, 226);
 		cursor: pointer;
+
+		.googleFc {
+			margin-right: 0.3rem;
+		}
 	}
 
 	p {
@@ -64,4 +68,8 @@ export const Box = styled.div`
 		cursor: pointer;
 		font-size: 16px;
 	}
+
+	@media screen and (max-width: 320px) {
+		font-size: 0.8rem;
+		}
 `
