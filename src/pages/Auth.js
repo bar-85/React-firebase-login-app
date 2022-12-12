@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Box, Container, Wrapper } from '../styles/pages/Auth.styles'
+import { Box, Container, Wrapper, Title } from '../styles/pages/Auth.styles'
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth'
 import { toast } from 'react-toastify'
 import { auth } from '../firebase'
@@ -59,6 +59,8 @@ const Auth = () => {
 	}
 
 	return (
+		<>
+			<Title>React Firebase</Title>
 		<Wrapper>
 			<Container>
 				<Box>
@@ -73,6 +75,7 @@ const Auth = () => {
 				</Box>
 			</Container>
 		</Wrapper>
+		</>
 	)
 }
 
