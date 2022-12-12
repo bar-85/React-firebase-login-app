@@ -1,10 +1,17 @@
 import styled from 'styled-components'
 
+export const Title = styled.div`
+	font-weight: bold;
+	font-size: 2rem;
+	margin: 1rem;
+	color: rgb(69, 0, 68);
+`
+
 export const Wrapper = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 90vh;
+	height: 75vh;
 	width: 100%;
 `
 export const Container = styled.div`
