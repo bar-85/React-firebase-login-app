@@ -1,12 +1,15 @@
 import React from 'react'
-import { Welcome } from '../styles/pages/Home.styles'
+import { Wrapper, Welcome } from '../styles/pages/Home.styles'
 
-const Home = ({users}) => {
-  return (
-      <Welcome>
-        Witaj <span>{ users?.email }</span>
-      </Welcome>
-  )
+const Home = ({ users }) => {
+	return (
+		<Welcome>
+			<Wrapper>
+        <div>Witaj</div>
+				<span>{users?.email}</span>
+			</Wrapper>
+		</Welcome>
+	)
 }
 
 export default Home
