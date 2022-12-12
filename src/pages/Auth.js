@@ -59,10 +59,9 @@ const Auth = () => {
 	}
 
 	return (
-		<>
-			<Title>React Firebase</Title>
 		<Wrapper>
 			<Container>
+				<Title>React Firebase</Title>
 				<Box>
 					<h2>{signUp ? 'Rejestracja' : 'Logowanie'}</h2>
 					<input name='email' value={authData.email} onChange={onChangeFunc} type='email' placeholder='Email' />
@@ -75,7 +74,6 @@ const Auth = () => {
 				</Box>
 			</Container>
 		</Wrapper>
-		</>
 	)
 }
 
