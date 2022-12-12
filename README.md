@@ -1,3 +1,45 @@
+<h1 align="center"> React Firebase </h1 >
+<br />
+<br />
+<h2 align="left"> Responsywna strona internetowa:  </h2>
+* Rejestracja
+<br />
+* Logowanie email
+<br />
+* Logowanie Google
+<br />
+<br />
+Stronę można zobaczyć pod adresem: https://react-app-firebase.netlify.app/
+<br />
+<h3 align="left"> Technologie: </h3>
+* JavaScript / React - React Router (Hooks)
+<br />
+* CSS - Styled Components
+<br />
+* Baza danych - Firebase https://firebase.google.com/
+<br />
+<br />
+
+
+![11](https://user-images.githubusercontent.com/105555319/207164270-38a7a453-9240-4fa1-a65e-11f4970fecd2.jpg)
+<br />
+<br />
+![22](https://user-images.githubusercontent.com/105555319/207164311-3cf324ae-7c92-492f-a2dd-a63895ea6029.jpg)
+<br />
+<br />
+![33](https://user-images.githubusercontent.com/105555319/207164339-471f25f7-1a17-4edd-8132-c8f80485dbb9.jpg)
+<br />
+<br />
+![44](https://user-images.githubusercontent.com/105555319/207164381-63dccd75-128c-43bc-96ab-4f7c1c5cadeb.jpg)
+<br />
+<br />
+![55](https://user-images.githubusercontent.com/105555319/207164410-2440b48d-ba30-491f-b9e6-a4e03fab6f63.jpg)
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
