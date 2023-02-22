@@ -9,6 +9,13 @@
 * Logowanie Google
 <br />
 <br />
+---> testowe logowanie <---
+<br />
+Login: test1@test.pl
+<br />
+Hasło: test1@test
+<br />
+<br />
 Stronę można zobaczyć pod adresem: https://react-app-firebase.netlify.app/
 <br />
 <h3 align="left"> Technologie: </h3>
